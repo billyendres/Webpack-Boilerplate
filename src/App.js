@@ -3,7 +3,9 @@ import styled from "styled-components";
 const App = () => {
   return (
     <div>
-      <H1>App</H1>
+      <H1>
+        App = {process.env.NODE_ENV} - {process.env.name}
+      </H1>
     </div>
   );
 };
